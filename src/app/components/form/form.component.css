@@ -1,4 +1,74 @@
-.register-form
+.container
 {
-  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
 }
+.container form
+{
+  width: 65%;
+  height: auto;
+  background-color: rgba(255,255,255,.4);
+  backdrop-filter: blur(20px);
+  border-radius: 8px;
+  padding: 2.5rem 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container form .form-group
+{
+  margin: 10px;
+}
+.container form .form-group label
+{
+  color: #FFF;
+  width: 100%;
+  font-size:1.2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.container form .form-group .form-control
+{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #FFF;
+  color:#FFF;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.container form .form-group .input-group-text
+{
+  background:transparent;
+  border: none;
+  border-bottom: 2px solid #FFF;
+  color: #FFF;
+  font-weight: 400;
+}
+.container form .buton
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.container form .buton .btn
+{
+  background-color: #1161a8;
+  border: none;
+  width: auto;
+  height: auto;
+  padding: auto 23px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-align:center;
+  transition: .5s;
+}
+.container form .buton .btn:hover
+{
+  background-color: #099bcf;
+}
+/* .container form .form-group .form-control:focus
+{
+  c
+} */

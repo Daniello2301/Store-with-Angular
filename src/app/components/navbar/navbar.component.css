@@ -1,0 +1,40 @@
+.navbar
+{
+  background-color: rgba(255, 255, 255, .1);
+  backdrop-filter: blur(20px);
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, .3);
+}
+.navbar .container-fluid .navbar-brand
+{
+  width: 60px ;
+  height: 60px;;
+  background-color: #FFF;
+  border-radius: 10px;
+  margin: 0px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .container-fluid .navbar-brand img
+{
+  width:100%;
+  height: auto;
+}
+.navbar .container-fluid .collapse ul
+{
+  margin: auto auto;
+}
+.navbar .container-fluid .collapse ul .nav-item .nav-link
+{
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  color:#FFF;
+  background-color: #1161a8 ;
+  margin: 0px 10px;
+  transition: .5s;
+}
+.navbar .container-fluid .collapse ul .nav-item .nav-link:hover
+{
+  background-color: #099bcf;
+}
