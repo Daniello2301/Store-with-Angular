@@ -1,0 +1,11 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div *ngFor="let product of products " class="card" style="width: 18rem;">
+    <img src="../../../assets/images/{{ product.image }}" class="card-img-top" alt="image">
+    <div class="card-body">
+      <h5 class="card-title"> {{product.tittle}} </h5>
+      <p class="card-text"> {{product.price}} </p>
+      <a href="#" class="btn btn-primary">Ver más</a>
+    </div>
+  </div>
+</div>

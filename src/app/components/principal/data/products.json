@@ -1,0 +1,28 @@
+[
+  {
+
+    "image":"MouseLogitechG502.jpg",
+    "tittle": "Mouse Logitech G502",
+    "precio": "$300.000"
+  },
+  {
+    "image":"HeadsetsLogitechG733.jpg",
+    "tittle": "Diademas Logitech G733",
+    "price": "$600.000"
+  },
+  {
+    "image":"TecladoRedragonK552.jpg",
+    "tittle":"Teclado Gamer Redragon K552",
+    "price":"$250.000"
+  },
+  {
+    "image":"MouseRazerBasiliskEssential.jpg",
+    "tittle":"Mouse gamer Razer Basilisk Essential",
+    "price":"$200.000"
+  },
+  {
+    "image":"TecladoLogitechG513.jpg",
+    "tittle":"Teclado Mecanico Logitech G513",
+    "price":"$450.000"
+  }
+]
