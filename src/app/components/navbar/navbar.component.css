@@ -29,12 +29,12 @@
   font-size: 1.1rem;
   letter-spacing: 2px;
   border-radius: 5px;
-  color:#FFF;
-  background-color: #1161a8 ;
+  color:#252525;
+  background-color: #FEFEFE ;
   margin: 0px 10px;
-  transition: .5s;
+  transition: .2s;
 }
 .navbar .container-fluid .collapse ul .nav-item .nav-link:hover
 {
-  background-color: #099bcf;
+  background-color: #BFD1DA;
 }

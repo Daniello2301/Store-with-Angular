@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { FormComponent } from './components/form/form.component';
 import { LoginComponent } from './components/login/login.component';
+import { CarComponent } from './components/car/car.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,9 @@ const routes: Routes = [
   },
   {
     path:'app-form', component: FormComponent
+  },
+  {
+    path:'app-car', component: CarComponent
   }
 ];
 @NgModule({
@@ -27,7 +31,8 @@ const routes: Routes = [
     NavbarComponent,
     PrincipalComponent,
     FormComponent,
-    LoginComponent
+    LoginComponent,
+    CarComponent
   ],
   imports: [
     BrowserModule,

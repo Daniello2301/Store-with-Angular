@@ -54,7 +54,8 @@
 }
 .container form .buton .btn
 {
-  background-color: #1161a8;
+  background-color: #FEFEFE;
+  color: #252525;
   border: none;
   width: auto;
   height: auto;
@@ -66,7 +67,7 @@
 }
 .container form .buton .btn:hover
 {
-  background-color: #099bcf;
+  background-color: #BFD1DA;
 }
 /* .container form .form-group .form-control:focus
 {

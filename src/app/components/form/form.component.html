@@ -21,12 +21,13 @@
       <label>Stock</label>
       <input
         type="number"
-        formControlName="description"
+        formControlName="stock"
         class="form-control shadow-none"
-        [ngClass]="{ 'is-invalid': submitted && f['description'].errors }"
+        [ngClass]="{ 'is-invalid': submitted && f['stock'].errors }"
       />
-      <div *ngIf="submitted && f['description'].errors" class="invalid-feedback">
-        <div *ngIf="f['description'].errors['required']">La Descripción es requerida</div>
+      <div *ngIf="submitted && f['stock'].errors" class="invalid-feedback">
+        <div *ngIf="f['stock'].errors['required']">La Descripción es requerida</div>
+        <div *ngIf="f['stock'].errors['minlength']">El stock debe ser mayor que 0</div>
       </div>
     </div>
 

@@ -1,0 +1,33 @@
+[
+  {
+
+    "image":"ChasisCorsairCrystalSeries570X.png",
+    "tittle": "Chasis Corsair Crystal ATX",
+    "price": 700000,
+    "quantity": 1
+  },
+  {
+    "image":"VolanteLogitechG923.png",
+    "tittle":"Volante y Pedales Logitech G923",
+    "price": 1500000,
+    "quantity": 1
+  },
+  {
+    "image":"TecladoCorsairK70.png",
+    "tittle":"Teclado Mecanico Corsair K70",
+    "price": 850000,
+    "quantity": 2
+  },
+  {
+    "image":"MouseCorsairM65.png",
+    "tittle":"Mouse Gamer Corsair M65",
+    "price": 250000,
+    "quantity": 2
+  },
+  {
+    "image":"Diademas-Astro A50.png",
+    "tittle":"Diademas Inalambricas Astro A50",
+    "price": 1150000,
+    "quantity": 2
+  }
+]

@@ -28,10 +28,11 @@ export class FormComponent implements OnInit {
     this.form = this.formBuilder.group(
       {
         productName:['', Validators.required],
-        description:[
+        stock:[
           '',
           [
             Validators.required,
+            Validators.minLength(1)
           ]
         ],
         price:[

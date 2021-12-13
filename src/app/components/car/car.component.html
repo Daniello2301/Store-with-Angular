@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <!-- <div *ngFor="let itemCar of productsCar " class="car-item" style="width: 18rem;">
+    <div class="image">
+      <img src="../../../assets/images/{{ itemCar.image }}" class="card-img-top" alt="image">
+    </div>
+    <div class="car-item-content">
+      <h5 class="card-title"> {{itemCar.tittle}} </h5>
+      <p class="card-text"> {{itemCar.price}} </p>
+      <p class="card-text"> {{itemCar.quantity}} </p>
+      <p class="card-text"> {{itemCar.price * itemCar.quantity}} </p>
+      <a href="#" class="btn btn-danger">Borrar</a>
+    </div>
+  </div> -->
+  <div *ngFor="let itemCar of productsCar " class="card mb-3" style="width: 700px; min-height: 12rem;">
+    <div class="row g-0">
+      <div class="col-md-4 item-image">
+        <img src="../../../assets/images/{{ itemCar.image }}" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="col card-body m-auto">
+          <div class="row">
+            <div class="col item-title text-center">
+              <h5 class="card-title">{{itemCar.tittle}}</h5>
+            </div>
+          </div>
+          <div class="row item-specifications">
+            <div class="col text-center item-price">
+              <label>Precio</label>
+              <p >{{itemCar.price}}</p>
+            </div>
+            <div class="col text-center item-quantity">
+              <label>Cantidad</label>
+              <p >{{itemCar.quantity}}</p>
+            </div>
+            <div class="col text-center item-total">
+              <label>Total</label>
+              <p >{{itemCar.price * itemCar.quantity}}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-end mt-3 item-button">
+              <a class="btn btn-danger ">Borrar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
